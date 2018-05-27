@@ -1,0 +1,308 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28.03.2018, 22:31:08
+    Author     : Артем
+*/
+/*Specification*/
+ul,li{
+    display:block;
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+    color:black;
+    text-align:center; 
+}
+h3{
+    font-weight: 400;
+    color:#828181;
+    text-align:center; 
+}
+
+
+
+
+
+/* First Screen*/
+.menu__item{
+  
+    margin: 0 35px;
+    text-align: center;
+
+}
+.menu__item a{
+    font-size: 20px;
+    font-weight: 200;
+    color:#fff;
+    
+}
+.menu__item a.home{
+    font-weight: 700;
+}
+.menu__item a:hover{
+    cursor: default;
+    text-decoration: none;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 0 20px;
+    border: none;
+    margin-top: 5px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius:20px; 
+    background: #d8d6d6;
+}
+
+.topnav input[type=text]:hover{
+    text-decoration:none;
+    cursor: default;
+    
+}
+
+.ctm_button{
+  background: #53d153;
+    color:white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 50px;
+    width: 126px;
+    border: 0;
+    padding: 12px 50px;
+}
+.ctm_button:hover{
+    text-decoration: none;
+    cursor:default;
+    color:white;
+}
+
+.title{
+    padding-top: 100px;
+    text-align: center;
+    margin-top: 250px;
+    
+}
+.title__main{
+    font-size: 55px;
+    width: 100%;
+    max-width: 960px;
+    font:6em "Amatic SC",cursive;
+    color:white;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+/*Second Screen*/
+.title__offer{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 24px;
+    font:4em "Amatic SC",cursive;
+}
+.title_section2{
+    padding-top: 100px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.offer__text{
+    font:2em 'Indie Flower', cursive;
+    font-size: 20px;
+    width: 100%;
+}
+.feature{
+    margin-top: 75px;
+}
+.feature__icon{
+    font-size: 50px;
+    color:#53d153;
+    font-weight: 600;
+    margin: 0 auto;
+    
+}
+
+.offers{
+    margin-bottom: 100px;
+}
+.offer_button{
+    background:#e0f3e0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 25px;
+    width: 126px;
+    border: 0;
+    padding: 30px 30px;
+}
+.feature__block{
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.btn-block{
+    margin: 0 auto;
+}
+
+.touch{
+    background: #53d153;
+    color:white;
+}
+
+/* Third Screen*/
+.form__input{
+    background: white;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 450px;
+    padding: 14px 0;
+    margin-right: 21px;
+    padding-left: 23px;
+    outline: none;
+}
+.form__btn{
+    background: yellow;
+    color:black;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 126px;
+    border: 0;
+    padding: 12px 0;
+    
+}
+.form{
+    text-align: center; 
+}
+
+/*footer*/
+.footer{
+    background: #53d153;
+    color: white;
+    padding: 55px 0 94px;
+}
+.credits{
+    font-size: 16px;
+    text-align: center;
+    width: 184px;
+    margin: 0 auto;
+}
+
+#playground-container {
+    height: 500px;
+    overflow: hidden !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+.main{
+ 	margin:50px 15px;
+}
+
+.h1.title { 
+	font-size: 50px;
+	font-family: 'Passion One', cursive; 
+	font-weight: 400; 
+}
+.body, html {
+	height: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Oxygen', sans-serif;
+	background-size: cover;
+}
+
+.hr{
+	width: 10%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+.label{
+	margin-bottom: 15px;
+}
+
+.input,input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+ 	background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.form-control {
+    height: auto!important;
+padding: 8px 12px !important;
+}
+.input-group {
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+}
+#button {
+    border: 1px solid #ccc;
+    margin-top: 28px;
+    padding: 6px 12px;
+    text-shadow: 0 1px #fff;
+    cursor: pointer;
+    -moz-border-radius: 3px 3px;
+    -webkit-border-radius: 3px 3px;
+    border-radius: 3px 3px;
+    -moz-box-shadow: 0 1px #fff inset, 0 1px #ddd;
+    -webkit-box-shadow: 0 1px #fff inset, 0 1px #ddd;
+    box-shadow: 0 1px #fff inset, 0 1px #ddd;
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #eeeeee));
+    background: -webkit-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: -o-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: -ms-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee', GradientType=0);
+}
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 400px;
+    padding: 10px 40px;
+	background:#009edf;
+	    color: #FFF;
+    text-shadow: none;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+
+}
+.span.input-group-addon i {
+    color: #009edf;
+    font-size: 17px;
+}
+
+.login-button{
+	margin-top: 5px;
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}
+
+
+
